@@ -1,0 +1,28 @@
+name: InfinityStones
+version: 1.47
+main: me.nate.powercrystals.InfinityStones
+api-version: 1.13
+permissions:
+  infinitystones.getstone:
+    description: Lets the player use the /getstones command
+    default: op
+  infinitystones.usestones:
+    description: Lets the player use the infinity stones.
+    default: true
+  infinitystones.removestone:
+    description: Lets the player remove an infinity stone from a player.
+    default: op
+  infinitystones.equipstone:
+    description: Lets the player equip an infinity stone for a player.
+    default: op
+  infinitystones.reload:
+    description: Lets the player use the /isreload command.
+    default: op
+commands:
+  gauntlet:
+  getstone:
+  removestone:
+  equipstone:
+  infinitystones:
+  isreload:
+softdepend: [PlaceholderAPI]
